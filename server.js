@@ -9,11 +9,11 @@ require("./config/routes")(app);
 
 mongoose
 	.connect(
-		"mongodb+srv://cluster0.8mmaf.mongodb.net/?retryWrites=true&w=majority",
+		"mongodb+srv://dustin:Gecko123@cluster0.8mmaf.mongodb.net/mod5project?retryWrites=true&w=majority",
 		{
-			dbName: "mod5project",
-			user: "dustin",
-			pass: "Gecko123",
+			// dbName: "mod5project",
+			// user: "dustin",
+			// pass: "Gecko123",
 			useNewUrlParser: true,
 			useUnifiedTopology: true,
 		}
